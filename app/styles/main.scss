@@ -31,7 +31,7 @@ body {
     margin: 0 auto;
     width: 500px;
     height: 500px;
-    background-color: gray;
+    background-color: rgb(212, 204, 204);
 }
 
 .password {
@@ -50,16 +50,16 @@ body {
     cursor: pointer;
     height: 100px;
     width: 200px;
-    background-image: url(http://media.tumblr.com/35c3bda753db8ec0140b800d0c9d3227/tumblr_inline_mqaoa649gH1qz4rgp.jpg);
+    background-image: url(http://dev.w3.org/csswg/css-images-3/radial1.png);
     border-radius: 8px;
     display: inline-block;
-    color: white;
     text-align: center;
     font-size: 30px;
     line-height: 100px;
-    border: 3px solid blue;
-    position: relative;
+    border: 3px solid black;
+    position: absolute;
     margin-left: 105px;
-    top: 120px;
+    bottom: 0;
+    
 
 }
