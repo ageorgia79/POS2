@@ -26,7 +26,7 @@ var LoginView = Parse.View.extend({
 
   events: {
 
-    //"click .submit": "showLayoutView"
+    "click .submit": "showLayoutView"
   },
 
   initialize: function(){
@@ -37,6 +37,11 @@ var LoginView = Parse.View.extend({
   render: function(){
     var renderedTemplate = this.loginTemplate();
     this.$el.html(renderedTemplate);
+  },
+
+  showLayoutView: function(){
+    var layout = new LayoutView({model: this.model});
+    $('.container').append(layout);
   }
 });
 ///////////////////////////////////////////////////////////////////////////////////////////////////////////
